@@ -1,0 +1,4 @@
+<?php
+return [
+    'RESET_PASSWORD_URL' => env('FRONTEND_URL').env('FRONTEND_FORGOT_PASSWORD_BACKLINK')
+];

@@ -1,0 +1,122 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+h1{
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    }
+    h2.auth-type a {
+    color: #636363;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #efefef;
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #efefef;
+    letter-spacing: 0.09rem;
+    }
+    .links > a {
+        color: #636b6f;
+        padding: 0 25px;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .endpoint-link, .endpoint-link a {
+        font-weight: bold;
+        letter-spacing: 0.05rem;
+        color:#222;
+    }
+    .endpoint-desc span{
+        display:block;
+    }
+    .endpoint-method{
+        text-transform: uppercase;
+        margin: 0.5rem 0;
+    }  
+    .endpoint-params {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1.5rem 2rem;
+    }
+    .access-type{
+        letter-spacing: 0.05rem;
+        margin-bottom: 0.5rem;
+        border-bottom: 1px solid #efefef;
+        padding-bottom: 0.5rem;
+        color: #989898;
+    }
+    .endpoint {
+        margin-bottom: 0.5rem;
+    }
+    .small{
+        color: #aaa;
+        margin-bottom: 0.5rem;
+        font-size: 90%;
+        margin-top: 0.25rem;
+    }
+    .example{
+        color: #aaa;
+        font-style: italic;
+        margin-bottom:0.5rem;
+    }
