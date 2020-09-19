@@ -302,7 +302,7 @@ php artisan migrate
 php artisan db:seed
 ```
 *Note: Default backend administrator is created when seeding database. These credentials can be used to access the admin area.*
-* In order to use Laravel Passport authentication, specifically Password Grant authentication, create a Password Grant Client:
+* In order to use Laravel Passport authentication, specifically Password Grant authentication, create a Password Grant Client (client name must be password_client):
 ```bash
 php artisan passport:client --password
 ```
